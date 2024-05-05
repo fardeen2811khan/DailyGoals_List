@@ -1,11 +1,7 @@
-import React from 'react'
+import React from "react";
 
-function header() {
-  return (
-    
-      <nav>get ready to complete Yoiur goals</nav>
-    
-  )
-}
+const Header = () => {
+  return <nav>Get Ready To Complete Your Daily Goals</nav>;
+};
 
-export default header
+export default Header;
